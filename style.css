@@ -1,0 +1,61 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.feed-container{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+}
+.feed-box{
+    width: 30%;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.feed-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.profile{
+    display: flex;
+}
+.profile > a{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+}
+.profile > a> img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 1rem;
+}
+.min{
+    font-size: 0.8rem;
+    color: #bdbdbd;
+    line-height: 150%;
+}
+.follow-btn{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid skyblue;
+    color: skyblue;
+}
